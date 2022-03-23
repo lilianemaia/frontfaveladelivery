@@ -1,0 +1,49 @@
+.escolherPerfil {
+  background: #ffae00;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.boxEscolherPerfil {
+  height: 66vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 5%;
+}
+.boxEscolherPerfil img {
+  height: 300px;
+  width: 300px;  
+  margin: 50px;
+}
+
+.escolherPerfilTitulo {
+  margin-top: 10px;
+  color: #fff;
+}
+.escolherPerfilParagrafo {
+  color: #fff;
+}
+.escolherPerfil button {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #005fb2;
+  color: #fff;
+}
+
+.escolherPerfil button:hover {
+  color: #fff;
+  background-color: #005fb2;
+  font-weight: bold;
+}
+@media (max-width: 320px) {
+  .boxEscolherPerfil img {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+  }
+}

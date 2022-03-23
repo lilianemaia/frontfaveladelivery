@@ -1,0 +1,83 @@
+.divdomeio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+;
+
+
+}
+.homebanner{
+  background-image: url("/src/components/img/foto-bg-mulher.png");
+  background-repeat: no-repeat;
+  background-position: right;
+ height: 700px;
+ 
+
+}
+.texto{
+  display: flex;
+  flex-direction: column;
+  
+  
+ 
+}
+
+
+.textoH1 {
+  display: flex;
+  font-weight: bold; 
+  text-shadow: 1px 1px 1px #005fb2;
+  color: #ffff;
+  text-indent: 10px;
+  width: 10px;
+  
+}
+.titulo-banner{
+  height: 10%
+}
+.banner {
+  position: absolute;
+  padding-left: 1567px;
+  background-repeat: no-repeat;
+  text-align: center;
+  min-width: 100%;
+  min-width: 100%;
+}
+
+.textoP {
+  color: rgb(0, 0, 0);
+ text-align: center;
+
+
+  
+}
+.textoParagrafo{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:  center;
+}
+
+.destaque {
+  text-shadow: 1px 1px 1px;
+  color: #005fb2;
+}
+.btnH {
+  position: relative;
+  width: 200px;
+  margin: auto;
+  padding: auto;
+  border: 0;
+  border-radius: 50px;
+  font-weight: bolder;
+  background-color: #21429c;
+  color: white;
+}
+
+.btnH:hover {
+  transition: 0.3s;
+  background-color: #21429c;
+  color: #fff;
+  font-size: 'Helvetica';
+}
